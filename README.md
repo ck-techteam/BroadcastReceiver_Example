@@ -1,6 +1,7 @@
 <article class="markdown-body entry-content" itemprop="text">
 <h1><a id="BroadCastReceiver" class="anchor" href="#BroadCastReceiver" aria-hidden="true"></a>BroadCastReceiver</h1>
 
+<p>Android broadcastreceiver is a component where one can register for a system or application event and receive notifications about the events after registering. This project is an overview of the onReceive() method. </p>
 <p>
 Android broadcastreceiver is also a component where you can register for system or application events. You will be notified about the events after registering. Broadcast originates from the system as well as applications. For example, an Instance for broadcast originating from the system is ‘low battery notification’. 
 It means ACTION_BATTERY_LOW event has been registered and the Android system fires it when the battery level goes down. Incoming message notifications, wifi notifications all are broadcast receivers.
